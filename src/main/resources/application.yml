@@ -1,0 +1,1 @@
+spring:  server: 8080  datasource:    url: jdbc:mysql://localhost:3306/tempdb  # Replace 'db_name' with your actual database name    username: root    password: anil1458    driver-class-name: com.mysql.cj.jdbc.Driver  jpa:    hibernate:      ddl-auto: update # You can set this to "create", "update", "create-drop", or "none" as per your requirement    show-sql: true
